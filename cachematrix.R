@@ -22,6 +22,10 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+## Input: The matrix created by makeCacheMatrix
+## Output: Return the newest inverse of matrix
+## If the inverse was cached -> Return the cached inverse
+## If the inverse was not existed -> Calculate the inverse and store back to the matrix object -> return the newest inverse
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
